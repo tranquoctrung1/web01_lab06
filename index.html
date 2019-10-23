@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div align="center">
+        <form action="frmMain" action="#" method="GET" onsubmit="return CheckSubmit()">
+            <table width="300" border="1" cellspacing="0" cellpadding="2" rules="groups" bordercolor="#0099ff">
+                <tr>
+                    <td colspan="4" class="tableHeader" id="idHeader">Login Form</td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="right"></td>
+                </tr>
+                <tr>
+                    <td width="110" align="right" id="idUserName">User Name: </td>
+                    <td width="22">&nbsp;</td>
+                    <td width="129">
+                        <input type="text" name="txtUserName" id="txtUserName" class="normal" onfocus="HighLight(this, 1)" onblur="HighLight(this, 2)" onmouseover="HighLight(this, 3)" onmouseout="HighLight(this, 2)">
+                    </td>
+                    <td width="58">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td align="right" id="idPassword">Password: </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <input type="password" name="txtPassword" id="txtPassword" class ="normal" onfocus="HighLight(this, 1)" onblur="HighLight(this, 2)" onmouseover="HighLight(this, 3)" onmouseout="HighLight(this, 2)">
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td align="right" id="idLanguage">Language: </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <select name="cmdLanguage" id="cmdLanguage"  class="normal" onfocus="HighLight(this, 1)" onblur="HighLight(this, 2)" onmouseover="HighLight(this, 3)" onmouseout="HighLight(this, 2)" onchange="ChangeLanguage()">
+                            <option value="Tiếng Anh" id="idEng" selected="selected">English</option>
+                            <option value="Vietnamese" id="idVN">Vietnamese</option>
+                        </select>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center"><hr color="#0099ff" size="1"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">
+                        <input type="submit" name="btnSubmit" id="btnSubmit" value="Login">
+                        <input type="reset" value="Close" name="btnClose" id="btnClose">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="./js/1760221_02.js"></script>
+    <script src="./js/1760221_03.js"></script>
+    <script src="./js/1760221_04.js"></script>
+</body>
+</html>

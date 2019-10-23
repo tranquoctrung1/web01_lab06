@@ -1,0 +1,32 @@
+.tableHeader
+{
+    background-color: #0099FF;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.onFocus
+{
+    background-color: #FCF;
+    color: #390;
+}
+
+.onMouseOver
+{
+    border-color: #C30;
+    border-width: thin;
+    border-style: solid;
+
+    background-color: #ffc;
+    color: #f00;
+}
+
+.normal
+{
+    border-color: #B4CFFE;
+    border-bottom-width: thin;
+    border-style: ridge;
+    background-color: #fff;
+    color: #000;
+}
